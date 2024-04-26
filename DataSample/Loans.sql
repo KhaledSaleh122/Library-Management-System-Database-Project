@@ -7,8 +7,8 @@ insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) v
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (994, 229, '1/19/2046', '1/19/2047', '8/19/2046');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (936, 597, '11/16/2052', '11/16/2053', '2/16/2053');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (545, 35, '9/22/2056', '9/22/2057', '4/22/2057');
-insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (297, 734, '8/6/2054', '8/6/2055', '1/6/2055');
-insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (483, 242, '10/27/2057', '10/27/2058', '2/27/2058');
+insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (297, 734, '8/6/2054', '8/6/2055', NULL);
+insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (483, 242, '10/27/2057', '10/27/2058', NULL);
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (545, 374, '5/18/2047', '5/18/2048', '10/18/2047');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (201, 854, '12/14/2053', '12/14/2054', '8/14/2054');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (335, 649, '6/29/2055', '6/29/2056', '2/29/2056');
@@ -23,7 +23,7 @@ insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) v
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (823, 7, '1/17/2046', '1/17/2047', '3/17/2046');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (19, 907, '7/20/2057', '7/20/2058', '2/20/2058');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (647, 904, '6/24/2054', '6/24/2055', '3/24/2055');
-insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (907, 808, '8/9/2058', '8/9/2059', '9/9/2058');
+insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (907, 808, '8/9/2058', '8/9/2059', NULL);
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (286, 802, '9/19/2053', '9/19/2054', '8/19/2054');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (820, 695, '6/27/2041', '6/27/2042', '12/27/2041');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (394, 615, '3/24/2060', '3/24/2061', '1/24/2061');
@@ -32,10 +32,10 @@ insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) v
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (961, 760, '4/22/2055', '4/22/2056', '10/22/2055');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (324, 984, '4/21/2054', '4/21/2055', '11/21/2054');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (920, 387, '9/1/2050', '9/1/2051', '2/1/2051');
-insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (396, 449, '12/15/2055', '12/15/2056', '4/15/2056');
+insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (396, 449, '12/15/2055', '12/15/2056', NULL);
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (955, 110, '9/22/2052', '9/22/2053', '12/22/2052');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (530, 330, '11/21/2049', '11/21/2050', '6/21/2050');
-insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (608, 800, '12/15/2054', '12/15/2055', '11/15/2055');
+insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (608, 800, '12/15/2054', '12/15/2055', NULL);
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (259, 84, '2/21/2053', '2/21/2054', '2/21/2054');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (251, 776, '8/29/2040', '8/29/2041', '11/29/2040');
 insert into Loans (BookID, BorrowerID, Date_Borrowed, Due_Date, Date_Returned) values (116, 428, '10/19/2056', '10/19/2057', '8/19/2057');
