@@ -26,3 +26,11 @@ CREATE TABLE [Loans] (
     [Due_Date] Date,
     [Date_Returned] Date,
 );
+
+
+CREATE TABLE AuditLog (
+    AuditID INT IDENTITY(1,1) PRIMARY KEY,
+    BookID INT,
+    StatusChange VARCHAR(50),
+    ChangeDate DATETIME
+);
