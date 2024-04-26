@@ -12,7 +12,7 @@ with Populare_Genre as(
 	Select 
 	Genre,
 	count(*) as Genre_frequency,
-	DENSE_RANK() over (order by count(*) desc) as Genre_Rank
+	row_number() over (order by count(*) desc) as Genre_Rank
 	from loans join books
 	on loans.BookID = books.BookID
 	where month(Date_Borrowed) = 3
